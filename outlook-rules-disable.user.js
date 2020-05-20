@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Outlook.com disable all rules at once
 // @namespace    nl.dschotman.userscript.outlook-rules-disable
-// @version      0.2
+// @version      0.3
 // @description  Disable all rules outlook.com
 // @author       Daniël Schotman
 // @copyright    2020+, Daniël Schotman
@@ -15,5 +15,17 @@
 
 $(document).ready(function() {
     alert('asfghasfh');
-    $('button.ms-Button.root-126').parent().append('<button type=button class="ms-Button ms-Button--action ms-Button--command" id="toggle-rules-button"><span>Disable</span> all rules</button>');
+    $('button.ms-Button.root-126')
+        .parent()
+        .append('<button type=button class="ms-Button ms-Button--action ms-Button--command" id="toggle-rules-button"><span>Disable</span> all rules</button>');
+    
+});
+
+jQuery(window).load(function () {
+    alert('page is loaded');
+
+    setTimeout(function () {
+        alert('page is loaded and 1 minute has passed');   
+    }, 60000);
+
 });
