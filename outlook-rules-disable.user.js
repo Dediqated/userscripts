@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Outlook.com disable all rules at once
 // @namespace    nl.dschotman.userscript.outlook-rules-disable
-// @version      0.1
+// @version      0.2
 // @description  Disable all rules outlook.com
 // @author       Daniël Schotman
 // @copyright    2020+, Daniël Schotman
