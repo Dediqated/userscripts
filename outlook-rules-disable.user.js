@@ -9,7 +9,7 @@
 // @include      https://outlook.live.com/mail/0/options/mail/rules
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.5.1.slim.min.js
-// @updateURL      https://github.com/Dediqated/userscripts/raw/master/outlook-rules-disable.meta.js
+// @updateURL      https://github.com/Dediqated/userscripts/raw/master/outlook-rules-disable.user.js
 // @downloadURL    https://github.com/Dediqated/userscripts/raw/master/outlook-rules-disable.user.js
 // ==/UserScript==
 
