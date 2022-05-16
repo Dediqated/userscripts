@@ -6,6 +6,8 @@
 // @match        https://github.com/*
 // @icon         https://www.google.com/s2/favicons?domain=github.com
 // @grant        none
+// @updateURL      https://github.com/Dediqated/userscripts/raw/master/github-light.meta.js
+// @downloadURL    https://github.com/Dediqated/userscripts/raw/master/github-light.user.js
 // ==/UserScript==
 
 (function() {
